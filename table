@@ -1,11 +1,10 @@
 
 
-
+script_key="enter ur key here";
 
 getgenv().AuraX = {
     Main = {
         ["FindBestServer"] = false, -- connects to server with best ping
-        ["Key"] = "your_key",
     },
     Silent = {
         ["Enabled"] = true,
