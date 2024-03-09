@@ -11,8 +11,8 @@ getgenv().AuraX = {
         ["UseKeybind"] = true,
         ["Keybind"] = "k",
         ["Part"] = "HumanoidRootPart",
-        ["Prediction"] = 0.146,
-        ["Default"] = 0.146,
+        ["Prediction"] = 0.136,
+        ["Default"] = 0.136,
         ["ClosestPart"] = true,
         ["ClosestPoint"] = true,
         ["AntiGroundShots"] = true,
@@ -22,7 +22,7 @@ getgenv().AuraX = {
             ["GrabbedCheck"] = true
         }
     },
-    Aimbot = {
+    camlock = {
         ["Enabled"] = true,
         ["Keybind"] = "c",
         ["Part"] = "UpperTorso",
@@ -157,7 +157,7 @@ getgenv().AuraX = {
             ["P190"] = 0.16594,
             ["P200"] = 0.16942
         },
-        ["Aimbot"] = {
+        ["camlock"] = {
             ["Enabled"] = false,
             ["P10"] = 0.11,
             ["P20"] = 0.12588,
@@ -200,7 +200,7 @@ getgenv().AuraX = {
         ["Maximum"] = 180
     },
     Esp = {
-        ["Enabled"] = false, -- Loads the ESP
+        ["Enabled"] = true, -- Loads the ESP
         ["Bounding_Box"] = true, -- Box Base
         ["Fill_Box"] = false, -- If you want to fill the box
         ["Fill_Transparency"] = 0.75, -- Box transparency
@@ -220,6 +220,10 @@ getgenv().AuraX = {
         ["Keybind"] = Enum.KeyCode.V
     }
 }
+
+
+
+
 
 
 
